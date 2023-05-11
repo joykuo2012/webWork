@@ -7,26 +7,37 @@
     <title>導輝小王子</title>
     <meta name="author" content="Joy Kuo" />
     <link rel="stylesheet" href="./styles/style.css" />
+ <!--boxicons link-->
+ <link
+ rel="stylesheet"
+ href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+/>
+<!--remixicon link-->
+<link
+ href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+ rel="stylesheet"
+/>
   </head>
   <body>
     <header>
       <h1>
-        <a href="#"
+        <a href="#home"
           >流浪 <br />
           菜鳥</a
         >
       </h1>
+      <div class="bx bx-menu" id="menu-icon"></div>
       <nav>
-        <ul>
-          <li><a href="#"></a>選單</li>
-          <li><a href="#"></a>選單</li>
-          <li><a href="#"></a>選單</li>
-          <li><a href="#"></a>選單</li>
+        <ul class="navlist">
+          <li><a href="#home">喔！是導輝</a></li>
+          <li><a href="#second">導輝星球</a></li>
+          <li><a href="#thrid">星空亂飛</a></li>
+          <li><a href="#four">星空物</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="home-page">
+      <section id="home" class="home-page">
         <div id="text" class="text">
           <h1>是小王子!</h1>
         </div>
@@ -108,7 +119,7 @@
         </svg>
       </section>
 
-      <section class="secondPage">
+      <section id="second" class="secondPage">
         <img id="moon2" src="./pic/IMG_0936.JPG" alt="moon" />
         <div id="text3" class="text3">
           <h3>導輝星球</h3>
@@ -124,51 +135,53 @@
         </div>
       </section>
 
-      <section class="thridPage">
+      <section id="thrid" class="thridPage">
         <img src="./pic/IMG_0932.GIF" alt="gifmoon" id="gif" />
-        </section>
+      </section>
 
-        <section class="fourPage">
-          <div class="content">
-            <h2>在導輝星球外太空可以看到...</h2>
-            <div class="imgs">
-              <div id="pic" class="pic">
-                <div class="box">
+      <section id="four" class="fourPage">
+        <div class="content">
+          <h2>在導輝星球外太空可以看到...</h2>
+          <div class="imgs">
+            
+            <div id="pic" class="pic">
+              <div class="box">
                 <img src="./pic/IMG_0930.PNG" alt="迷之噴罐" />
-                </div>
-                <h3>迷之噴灌</h3>
-                <p>
-                  可能是人類
-                  <br />
-                  吃的罐頭
-                </p>
               </div>
+              <h3>迷之噴灌</h3>
+              <p>
+                可能是人類
+                <br />
+                吃的罐頭
+              </p>
+            </div>
 
-              <div id="pic2" class="pic">
-                <div class="box">
+            <div id="pic2" class="pic">
+              <div class="box">
                 <img src="./pic/IMG_0929.PNG" alt="人類馬桶" />
-            </div>
-                <h3>人類馬桶</h3>
-                <p>
-                  據說人類都
-                  <br />
-                  用這上廁所
-                </p>
               </div>
+              <h3>人類馬桶</h3>
+              <p>
+                據說人類都
+                <br />
+                用這上廁所
+              </p>
+            </div>
 
-              <div id="pic3" class="pic">
-                <div class="box">
+            <div id="pic3" class="pic">
+              <div class="box">
                 <img src="./pic/IMG_0931.PNG" alt="忍塑膠袋" />
-            </div>
-                <h3>忍 塑膠袋</h3>
-                <p>買菜應該 <br />很好用</p>
               </div>
+              <h3>忍 塑膠袋</h3>
+              <p>買菜應該 <br />很好用</p>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>&copy; Copyright 2023 JoyKuo</footer>
 
     <script src="./app.js"></script>
+    <script src="./menu.js"></script>
   </body>
 </html>

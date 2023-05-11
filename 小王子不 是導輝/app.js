@@ -12,5 +12,6 @@ window.addEventListener("scroll", function () {
   text2.style.left = value * 1.3 + "px";
   bird.style.bottom = 50 + value * 1 + "px";
   svg.style.bottom = value * 0.1 + "px";
-  moon2.style.left = -700 + value * 0.5 + "px";
+  moon2.style.left = -500 + value * 0.5 + "px";
 });
+
